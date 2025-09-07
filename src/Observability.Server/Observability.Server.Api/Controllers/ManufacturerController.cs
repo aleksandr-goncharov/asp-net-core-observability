@@ -17,7 +17,8 @@ public class ManufacturerController : ControllerBase
 
     private static long _lastId = 0;
     private static readonly ConcurrentDictionary<long, Manufacturer> Manufacturers = new();
-
+    
+    [HttpGet]
     public async Task<GetAllManufacturersResponse> GetAll()
     {
         var manufacturers = Manufacturers.Values.Select(manufacturer => new ManufacturerBase
@@ -29,6 +30,7 @@ public class ManufacturerController : ControllerBase
         return new GetAllManufacturersResponse { Manufacturers = manufacturers };
     }
     
+    [HttpPost]
     public async Task<CreateManufacturerResponse> Create(CreateManufacturerRequest request)
     {
         var id = Interlocked.Increment(ref _lastId);
