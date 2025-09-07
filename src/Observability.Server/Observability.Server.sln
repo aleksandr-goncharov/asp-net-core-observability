@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observability.Server.Api", "Observability.Server.Api\Observability.Server.Api.csproj", "{FE6E6537-0EF5-4E36-844D-D9F5ECFCBC97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observability.Server.Infrastructure", "Observability.Server.Infrastructure\Observability.Server.Infrastructure.csproj", "{ED01FF25-DAF2-4862-A1B9-92A63A904F8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FE6E6537-0EF5-4E36-844D-D9F5ECFCBC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE6E6537-0EF5-4E36-844D-D9F5ECFCBC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE6E6537-0EF5-4E36-844D-D9F5ECFCBC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED01FF25-DAF2-4862-A1B9-92A63A904F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED01FF25-DAF2-4862-A1B9-92A63A904F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED01FF25-DAF2-4862-A1B9-92A63A904F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED01FF25-DAF2-4862-A1B9-92A63A904F8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
